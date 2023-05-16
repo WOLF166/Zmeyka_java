@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatabaseActivity">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="409dp"
+        android:layout_height="689dp"
+        android:layout_marginTop="60dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+         />
+
+    <Button
+        android:id="@+id/b_tothe_lobby"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+         />
+</RelativeLayout>
